@@ -5,7 +5,7 @@ const AppLayout = () => {
     return (
         <div>
             <header>
-                <h1>Gamebook App</h1>
+                <h1>My App</h1>
             </header>
             <nav>
                 <MainMenu />

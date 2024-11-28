@@ -10,6 +10,5 @@
         public required DateTime CreatedAt { get; set; } = DateTime.Now;
         public User? CreatedBy { get; set; }
         public required string CreatedById { get; set; }
-        public ICollection<Picture>? Pictures { get; set; }
     }
 }
